@@ -8,3 +8,4 @@ from time import sleep
 import keypair
 
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+
