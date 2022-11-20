@@ -48,7 +48,7 @@ while True:
     sleep(5)
     tweets = driver.find_elements(by=By.TAG_NAME, value='article')
     print('hi')
-    tweet = tweets[1]
+    tweet = tweets[0]
     svgs = tweet.find_elements(by=By.TAG_NAME, value='svg')
     svgs[3].click()#like
     svgs[1].click()
